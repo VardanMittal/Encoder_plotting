@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.001067] (encoders_plotter) JobQueued: {'identifier': 'encoders_plotter', 'dependencies': OrderedDict()}
+[0.001441] (encoders_plotter) JobStarted: {'identifier': 'encoders_plotter'}
+[0.098529] (-) TimerEvent: {}
+[0.198932] (-) TimerEvent: {}
+[0.299342] (-) TimerEvent: {}
+[0.399745] (-) TimerEvent: {}
+[0.500170] (-) TimerEvent: {}
+[0.600612] (-) TimerEvent: {}
+[0.701102] (-) TimerEvent: {}
+[0.801719] (-) TimerEvent: {}
+[0.902371] (-) TimerEvent: {}
+[0.910756] (encoders_plotter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vardan/Gears/ros2_ws/build/encoders_plotter/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vardan/Gears/ros2_ws/build/encoders_plotter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vardan', 'GIT_ASKPASS': '/home/vardan/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vardan', 'OLDPWD': '/home/vardan/Gears', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5bd84e67-42e1-4dc3-a58c-4a17395a0d0b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vardan/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vardan/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vardan/surveillance-swarm/code/ros2_wk/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vardan', 'NAME': 'DESKTOP-071NKVL', 'WSL_INTEROP': '/run/WSL/16386_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vardan/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Vardan/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Vardan/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Vardan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Vardan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Vardan/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a4b05b9e21.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/vardan/surveillance-swarm/code/ros2_wk/install/hexapod:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vardan/Gears/ros2_ws/build/encoders_plotter', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vardan/Gears/ros2_ws/build/encoders_plotter/prefix_override:/home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/python3.10/site-packages:/home/vardan/surveillance-swarm/code/ros2_wk/build/hexapod:/home/vardan/surveillance-swarm/code/ros2_wk/install/hexapod/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.002571] (-) TimerEvent: {}
+[1.103004] (-) TimerEvent: {}
+[1.203476] (-) TimerEvent: {}
+[1.252118] (encoders_plotter) StdoutLine: {'line': b'running develop\n'}
+[1.254500] (encoders_plotter) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.254742] (encoders_plotter) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.303658] (-) TimerEvent: {}
+[1.404175] (-) TimerEvent: {}
+[1.440402] (encoders_plotter) StdoutLine: {'line': b'running egg_info\n'}
+[1.440766] (encoders_plotter) StdoutLine: {'line': b'creating encoders_plotter.egg-info\n'}
+[1.441298] (encoders_plotter) StdoutLine: {'line': b'writing encoders_plotter.egg-info/PKG-INFO\n'}
+[1.441781] (encoders_plotter) StdoutLine: {'line': b'writing dependency_links to encoders_plotter.egg-info/dependency_links.txt\n'}
+[1.442135] (encoders_plotter) StdoutLine: {'line': b'writing entry points to encoders_plotter.egg-info/entry_points.txt\n'}
+[1.442413] (encoders_plotter) StdoutLine: {'line': b'writing requirements to encoders_plotter.egg-info/requires.txt\n'}
+[1.442590] (encoders_plotter) StdoutLine: {'line': b'writing top-level names to encoders_plotter.egg-info/top_level.txt\n'}
+[1.442834] (encoders_plotter) StdoutLine: {'line': b"writing manifest file 'encoders_plotter.egg-info/SOURCES.txt'\n"}
+[1.446339] (encoders_plotter) StdoutLine: {'line': b"reading manifest file 'encoders_plotter.egg-info/SOURCES.txt'\n"}
+[1.448065] (encoders_plotter) StdoutLine: {'line': b"writing manifest file 'encoders_plotter.egg-info/SOURCES.txt'\n"}
+[1.450832] (encoders_plotter) StdoutLine: {'line': b'running build_ext\n'}
+[1.451291] (encoders_plotter) StdoutLine: {'line': b'Creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/python3.10/site-packages/encoders-plotter.egg-link (link to .)\n'}
+[1.452910] (encoders_plotter) StdoutLine: {'line': b'Installing serial_reader script to /home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/encoders_plotter\n'}
+[1.453963] (encoders_plotter) StdoutLine: {'line': b'\n'}
+[1.454400] (encoders_plotter) StdoutLine: {'line': b'Installed /home/vardan/Gears/ros2_ws/build/encoders_plotter\n'}
+[1.454654] (encoders_plotter) StdoutLine: {'line': b'running symlink_data\n'}
+[1.455189] (encoders_plotter) StdoutLine: {'line': b'creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index\n'}
+[1.455509] (encoders_plotter) StdoutLine: {'line': b'creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index\n'}
+[1.455889] (encoders_plotter) StdoutLine: {'line': b'creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index/packages\n'}
+[1.456920] (encoders_plotter) StdoutLine: {'line': b'symbolically linking /home/vardan/Gears/ros2_ws/build/encoders_plotter/resource/encoders_plotter -> /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index/packages\n'}
+[1.457208] (encoders_plotter) StdoutLine: {'line': b'symbolically linking /home/vardan/Gears/ros2_ws/build/encoders_plotter/package.xml -> /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/encoders_plotter\n'}
+[1.495081] (encoders_plotter) CommandEnded: {'returncode': 0}
+[1.504353] (-) TimerEvent: {}
+[1.531138] (encoders_plotter) JobEnded: {'identifier': 'encoders_plotter', 'rc': 0}
+[1.533207] (-) EventReactorShutdown: {}

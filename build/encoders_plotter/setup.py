@@ -1,0 +1,1 @@
+/home/vardan/Gears/ros2_ws/src/encoders_plotter/setup.py

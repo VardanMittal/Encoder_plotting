@@ -1,0 +1,26 @@
+[0.915s] Invoking command in '/home/vardan/Gears/ros2_ws/build/encoders_plotter': PYTHONPATH=/home/vardan/Gears/ros2_ws/build/encoders_plotter/prefix_override:/home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/Gears/ros2_ws/build/encoders_plotter/build --no-deps symlink_data
+[1.251s] running develop
+[1.253s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.253s]   warnings.warn(
+[1.439s] running egg_info
+[1.439s] creating encoders_plotter.egg-info
+[1.440s] writing encoders_plotter.egg-info/PKG-INFO
+[1.440s] writing dependency_links to encoders_plotter.egg-info/dependency_links.txt
+[1.441s] writing entry points to encoders_plotter.egg-info/entry_points.txt
+[1.441s] writing requirements to encoders_plotter.egg-info/requires.txt
+[1.441s] writing top-level names to encoders_plotter.egg-info/top_level.txt
+[1.441s] writing manifest file 'encoders_plotter.egg-info/SOURCES.txt'
+[1.445s] reading manifest file 'encoders_plotter.egg-info/SOURCES.txt'
+[1.447s] writing manifest file 'encoders_plotter.egg-info/SOURCES.txt'
+[1.449s] running build_ext
+[1.450s] Creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/python3.10/site-packages/encoders-plotter.egg-link (link to .)
+[1.451s] Installing serial_reader script to /home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/encoders_plotter
+[1.453s] 
+[1.453s] Installed /home/vardan/Gears/ros2_ws/build/encoders_plotter
+[1.453s] running symlink_data
+[1.454s] creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index
+[1.454s] creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index
+[1.455s] creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index/packages
+[1.455s] symbolically linking /home/vardan/Gears/ros2_ws/build/encoders_plotter/resource/encoders_plotter -> /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index/packages
+[1.456s] symbolically linking /home/vardan/Gears/ros2_ws/build/encoders_plotter/package.xml -> /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/encoders_plotter
+[1.494s] Invoked command in '/home/vardan/Gears/ros2_ws/build/encoders_plotter' returned '0': PYTHONPATH=/home/vardan/Gears/ros2_ws/build/encoders_plotter/prefix_override:/home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vardan/Gears/ros2_ws/build/encoders_plotter/build --no-deps symlink_data

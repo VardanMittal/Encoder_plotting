@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating encoders_plotter.egg-info
+writing encoders_plotter.egg-info/PKG-INFO
+writing dependency_links to encoders_plotter.egg-info/dependency_links.txt
+writing entry points to encoders_plotter.egg-info/entry_points.txt
+writing requirements to encoders_plotter.egg-info/requires.txt
+writing top-level names to encoders_plotter.egg-info/top_level.txt
+writing manifest file 'encoders_plotter.egg-info/SOURCES.txt'
+reading manifest file 'encoders_plotter.egg-info/SOURCES.txt'
+writing manifest file 'encoders_plotter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/python3.10/site-packages/encoders-plotter.egg-link (link to .)
+Installing serial_reader script to /home/vardan/Gears/ros2_ws/install/encoders_plotter/lib/encoders_plotter
+
+Installed /home/vardan/Gears/ros2_ws/build/encoders_plotter
+running symlink_data
+creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index
+creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index
+creating /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index/packages
+symbolically linking /home/vardan/Gears/ros2_ws/build/encoders_plotter/resource/encoders_plotter -> /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/ament_index/resource_index/packages
+symbolically linking /home/vardan/Gears/ros2_ws/build/encoders_plotter/package.xml -> /home/vardan/Gears/ros2_ws/install/encoders_plotter/share/encoders_plotter

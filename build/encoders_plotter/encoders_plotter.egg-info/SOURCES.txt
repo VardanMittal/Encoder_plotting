@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+encoders_plotter/SerialReader.py
+encoders_plotter/__init__.py
+encoders_plotter.egg-info/PKG-INFO
+encoders_plotter.egg-info/SOURCES.txt
+encoders_plotter.egg-info/dependency_links.txt
+encoders_plotter.egg-info/entry_points.txt
+encoders_plotter.egg-info/requires.txt
+encoders_plotter.egg-info/top_level.txt
+encoders_plotter.egg-info/zip-safe
+resource/encoders_plotter

@@ -1,5 +1,6 @@
-serial
+pip install serial
 sudo apt install ros-humble-plotjuggler-ros
 
+cd ros2_wk
 source ./ros2_ws/install/setup.bash
 ros2 launch encoders_plotter plotting.launch.py
